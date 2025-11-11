@@ -1,0 +1,37 @@
+{
+  "buildFiles": [
+    "/Users/User/Programming/FlutterProjects/sketch/android/opencv/libcxx_helper/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/User/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/User/Programming/FlutterProjects/sketch/android/opencv/.cxx/Debug/2b5j1t5g/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/User/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/User/Programming/FlutterProjects/sketch/android/opencv/.cxx/Debug/2b5j1t5g/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "opencv_jni_shared",
+      "output": "/Users/User/Programming/FlutterProjects/sketch/android/opencv/.cxx/Debug/2b5j1t5g/x86_64/libopencv_jni_shared.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/User/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/User/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
